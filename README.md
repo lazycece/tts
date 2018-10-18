@@ -11,9 +11,9 @@ This project is a tool, that converts text content into voice files in wav forma
 A example as follow:
 
 ```
-String content = "今天你吃饭了吗";
-String fileName = "今天你吃饭了吗";
-String parentPath = "F:\\lazycece\\tts";
+String content = "hello, boy";
+String fileName = "hello , boy";
+String parentPath = "/home/lazycece/tts";
 TextToSpeech textToSpeech = new TextToSpeech("5a5727bc");
 textToSpeech.tts(parentPath, content, fileName);
 ```
@@ -26,10 +26,8 @@ the content text
 the file name after been converted
 * parentPath:   
 the parent path of files have been converted, follows:  
-```t
-${parentPath}/pcm/${fileName}.pcm  
-${parentPath}/pcm/${fileName}.wav
-```
+/home/lazycece/tts/pcm/hello, boy.pcm  
+/home/lazycece/tts/video/hello, boy.wav
 
 
 
