@@ -26,8 +26,10 @@ the content text
 the file name after been converted
 * parentPath:   
 the parent path of files have been converted, follows:  
+```t
 ${parentPath}/pcm/${fileName}.pcm  
 ${parentPath}/pcm/${fileName}.wav
+```
 
 
 
