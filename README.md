@@ -10,7 +10,7 @@ This project is a tool, that converts text content into voice files in wav forma
 
 First, you should apply a APPID from IFLYTEK's open-platform, and then to coding. 
  
-A example as follow:
+A example as follow: 
 
 ```
 String content = "hello, boy";
