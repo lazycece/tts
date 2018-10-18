@@ -3,18 +3,20 @@
 
 ## Description
 
-This project is a tool, that converts text content into voice files in wav format. First, use the offline transfer technology of IFLYTEK to transfer the text into a pcm file, and then use the algorithm to convert the pcm file into a wav format voice file.
+This project is a tool, that converts text content into voice files in wav format. First, use the offline speech synthesis technology of IFLYTEK to transfer the text into a pcm file, and then use the algorithm to convert the pcm file into a wav format voice file.
 
 
 ## How to use ?
 
+First, you should apply a APPID from IFLYTEK's open-platform, and then to coding. 
+ 
 A example as follow:
 
 ```
 String content = "hello, boy";
 String fileName = "hello , boy";
 String parentPath = "/home/lazycece/tts";
-TextToSpeech textToSpeech = new TextToSpeech("5a5727bc");
+TextToSpeech textToSpeech = new TextToSpeech("appid");
 textToSpeech.tts(parentPath, content, fileName);
 ```
 

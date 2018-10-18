@@ -6,7 +6,7 @@ public class Main {
         String content = "hello , boy";
         String fileName = "hello , boy";
         String parentPath = "/home/lazycece/tts";
-        TextToSpeech textToSpeech = new TextToSpeech("5a5727bc");
+        TextToSpeech textToSpeech = new TextToSpeech("");
         textToSpeech.tts(parentPath, content, fileName);
     }
 }
