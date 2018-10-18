@@ -1,11 +1,9 @@
-package com.cc.tts;
+package com.lazycece.tts;
 
 import com.iflytek.cloud.speech.SpeechError;
 import com.iflytek.cloud.speech.SynthesizeToUriListener;
+import com.lazycece.tts.helper.WavHeaderHelper;
 
-/**
- * Create by wangchao on 2018/1/12
- */
 public class TTSListener implements SynthesizeToUriListener {
 
     /**

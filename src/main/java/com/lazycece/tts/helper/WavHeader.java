@@ -1,4 +1,4 @@
-package com.cc.tts;
+package com.lazycece.tts.helper;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -6,8 +6,6 @@ import java.io.RandomAccessFile;
 
 /**
  * WavHeader辅助类。用于生成头部信息。
- * 
- * @author Administrator
  */
 
 public class WavHeader {

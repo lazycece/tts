@@ -1,11 +1,9 @@
-package com.cc.tts;
+package com.lazycece.tts;
 
 import com.iflytek.cloud.speech.*;
 
 /**
  * 用于中文文本转标准普通话语音
- * <p>
- * Create by wangchao on 2018/1/11
  */
 public class TextToSpeech {
 
@@ -87,9 +85,8 @@ public class TextToSpeech {
     }
 
     /**
-     *
-     * @param parent 文件保存的父目录
-     * @param text 文本信息
+     * @param parent   文件保存的父目录
+     * @param text     文本信息
      * @param fileName 所要保存的文件命名
      */
     public void tts(String parent, String text, String fileName) {
